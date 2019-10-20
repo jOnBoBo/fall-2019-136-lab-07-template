@@ -14,58 +14,9 @@
 - Fill in your name and GitHub username on top.
 - Use the Notes section to add any notes to the instructor.
 - The main lab description can be found here:
-  https://maryash.github.io/135/labs/lab_05.html 
+  https://maryash.github.io/135/labs/lab_07.html 
 - *DO NOT SUBMIT to Gradescope.*
 
 * Daedalus specific instructions (changes from main spec):
-
-For this lab you will write unit tests except as specified below. All
-functions should be written in funcs.cpp / funcs.h
-
-For each task in the lab add a *TEST_CASE* in *tests.cpp* specifying
-the tests you deem necessary and sufficient to test the lab.
-
-
-** Task A
-
-Write a function using the prototype *void ascii(std::string text);*
-that accepts a string as input and prints the output as specified in
-the main lab. This should be called from main and *not* tested via the
-doctest framework.
-
-** Task B
-
-Write the functions
-
--  char shiftChar(char c, int rshift); 
-- std::string encryptCaesar(std::string plaintext, int rshift); 
-
-as specified in the main lab.
-
-Test both in test.cpp
-
-** Task C
-
-Write the function 
-
-- std::string encryptVigenere(std::string plaintext, std::string
-  keyword); 
-
-as specified in the main lab.
-
-Test in tests.cpp.
-
-** Task D
-
-Write the functions 
-
-- decryptCaesar(std::string ciphertext, int rshift);
-- decryptVigenere(std::string ciphertext, std::string keyword);
-
-as specified in the main lab.
-
-Test in test.cpp.
-
-
 
 
